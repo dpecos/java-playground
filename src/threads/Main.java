@@ -1,3 +1,5 @@
+package threads;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.concurrent.Executors;
@@ -5,8 +7,7 @@ import java.util.concurrent.Executors;
 import static java.time.temporal.ChronoUnit.SECONDS;
 
 // https://howtodoinjava.com/java/multi-threading/virtual-threads/
-public class Threads {
-
+public class Main {
     public static void main(String[] args) {
         Runnable task = () -> {
             try {

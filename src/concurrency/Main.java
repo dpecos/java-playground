@@ -11,5 +11,6 @@ public class Main {
         System.out.println("Shutdown on failure (exit if failure)");
         System.out.println("------------------");
         ShutdownOnFailure.getClientDetails(1000L);
-        System.out.println("------------------");}
+        System.out.println("------------------");
+    }
 }

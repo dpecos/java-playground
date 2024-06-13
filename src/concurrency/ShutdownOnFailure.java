@@ -17,6 +17,4 @@ public class ShutdownOnFailure {
             throw new RuntimeException(e);
         }
     }
-
-
 }

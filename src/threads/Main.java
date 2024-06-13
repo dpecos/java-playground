@@ -35,7 +35,7 @@ public class Main {
                 executor.submit(task);
             }
         }
-        Duration ellapsedVirtualThreads  = Duration.between(init, Instant.now());
+        Duration ellapsedVirtualThreads = Duration.between(init, Instant.now());
 
         System.out.println("\nDone");
         System.out.println("Platform threads took " + ellapsedPlatformThreads.toMillis() + " ms");
